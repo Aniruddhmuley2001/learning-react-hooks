@@ -1,5 +1,7 @@
 import React, {useReducer} from "react";
 
+// Using State
+
 // function useReducer1() {
   // const [count, setCount] = useState(0)
   // const [showText, setShowText] =  useState(true);
@@ -21,6 +23,9 @@ import React, {useReducer} from "react";
   //   </div>
   // );
 // }
+
+
+// Using Reducer
 
 const reducer = (state, action) => {
   switch (action.type) {
